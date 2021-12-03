@@ -1,0 +1,173 @@
+/* Style the header with a grey background and some padding */
+.header {
+     overflow: hidden;
+     background-color: black;
+     padding: 12px 10px;
+   }
+   
+   /* Style the header links */
+   .header a {
+     float: left;
+     color:white;
+     text-align: center;
+     padding: 14px;
+     text-decoration: none;
+     font-size: 18px;
+     line-height: 10px;
+     border-radius: 4px;
+   }
+   
+   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+   .header a.logo {
+     font-size: 25px;
+     font-weight: bold;
+   }
+   
+   /* Change the background color on mouse-over */
+   .header a:hover {
+     background-color:none;
+     color:skyblue;
+   }
+   
+   /* Style the active/current link*/
+   .header a.active {
+     background-color: dodgerblue;
+     color: white;
+   }
+   
+   .Header-hide {
+        color:white;
+        margin-left:27em;
+   }
+   /* Float the link section to the right */
+   .header-right {
+     float: right;
+   }
+
+   .header-middle {
+    margin-left:20em;
+   }
+
+   .glyphicon-search{
+        color:white;
+        margin-top:10px;
+   }
+
+   .sticky {
+     position: -webkit-sticky;
+     position: sticky;
+     top: 0;
+     z-index:2;
+     padding: 8px;
+     font-size: 20px;
+   }
+
+   
+   .bgimage{
+        width: 97em;
+        height:35em;
+   }
+   img {
+     max-width: 100%;
+     height: auto;
+     display: block;
+   }
+   
+
+
+   .tcb-product-slider {
+     background: #333;
+     background-image: url(https://unsplash.it/1240/530?image=721);
+     background-size: cover;
+     background-repeat: no-repeat;
+     padding: 100px 0;
+   }
+   .tcb-product-slider .carousel-control {
+     width: 5%;
+   }
+   .tcb-product-item a {
+     color: #147196;
+   }
+   .tcb-product-item a:hover {
+     text-decoration: none;
+   }
+   .tcb-product-item .tcb-hline {
+     margin: 10px 0;
+     height: 1px;
+     background: #ccc;
+   }
+   @media all and (max-width: 768px) {
+     .tcb-product-item {
+       margin-bottom: 30px;
+     }
+   }
+   .tcb-product-photo {
+     text-align: center;
+     height: 180px;
+     background: #fff;
+   }
+   .tcb-product-photo img {
+     height: 100%;
+     display: inline-block;
+   }
+   .tcb-product-info {
+     background: #f0f0f0;
+     padding: 15px;
+   }
+   .tcb-product-title h4 {
+     margin-top: 0;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     overflow: hidden;
+   }
+   .tcb-product-rating {
+     color: #acacac;
+   }
+   .tcb-product-rating .active {
+     color: #FFB500;
+   }
+   .tcb-product-price {
+     color: firebrick;
+     font-size: 18px;
+   }
+   
+   
+   
+   .details {
+       margin: 50px 0; }
+    .details h1 {
+         font-size: 32px;
+         text-align: center;
+         margin-bottom: 3px; }
+       .details .back-link {
+         text-align: center; }
+         .details .back-link a {
+           display: inline-block;
+           margin: 20px 0;
+           padding: 15px 30px;
+           background: #333;
+           color: #fff;
+           border-radius: 24px; }
+           .details .back-link a svg {
+             margin-right: 10px;
+             vertical-align: text-top;
+             display: inline-block; }
+   
+   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+   @media screen and (max-width: 500px) {
+     .header a {
+       float: none;
+       display: block;
+       text-align: left;
+     }
+     .header-right {
+       float: none;
+     }
+   }
+   @media (min-width: 768px) {
+     .card img {
+       height: 11em;
+     }
+   }
+
+   
